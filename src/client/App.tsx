@@ -1,6 +1,9 @@
 import * as React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './scss/app';
+import Bloghome from './views/Bloghome';
+import Navbar from './components/Navbar';
 
 export default class App extends React.Component<IAppProps, IAppState> {
 
@@ -11,17 +14,17 @@ export default class App extends React.Component<IAppProps, IAppState> {
     }
 
     async componentWillMount() {
-        let r = await fetch('/api/hello');
-        let name = await r.json();
-        this.setState({ name })
+
     }
 
     render () {
         return (
-            <main className="container">
-                <h1 className="covalence-blue">Hello {this.state.name}!</h1>
-                <h2></h2>
-            </main>
+            <Router>
+                <Navbar />
+                <Switch>
+                    <Route exact path ="/" component={Bloghome}></Route>
+                </Switch>
+            </Router>
         )
     }
 }
