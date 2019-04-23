@@ -16,7 +16,7 @@ class Navbar extends React.Component<NavbarProps, NavbarState> {
     }
     render() { 
         return ( 
-            <nav className="navbar navbar-expand-lg navbar-dark bg-secondary shadow">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-danger shadow">
             <span className="navbar-brand mb-0 h1">ZtheDon Blog</span>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

@@ -21,7 +21,37 @@ class Bloghome extends React.Component<BloghomeProps, BloghomeState> {
                     <button className="btm btn-outline-danger mb-5 mr-3">I need a website</button>
                     <button className="btm btn-outline-danger mb-5 ml-3">I'm looking to hire</button>
                 </section>
-                <section className="row">
+                <section className="row bg-danger">
+                    <h1>testing 123</h1>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <h1>testing 123</h1>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <h1>testing 123</h1>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <h1>testing 123</h1>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <h1>testing 123</h1>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <h1>testing 123</h1>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
+                    <p>askdfasdf</p>
                     <h1>testing 123</h1>
                     <p>askdfasdf</p>
                     <p>askdfasdf</p>
